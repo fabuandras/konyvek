@@ -14,4 +14,4 @@ export const konyvLista=[
         szerzo: "Harrari",
         leiras: "Filozófikus mű az emberi faj kialakulásáról és működéséről"
     }
-]   
+]
