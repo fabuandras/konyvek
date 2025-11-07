@@ -1,8 +1,12 @@
+import { KosarContext } from "../contexts/KosarContext";
+import { useContext } from "react";
+
 export default function Konyv(props) {
 
+    const {kosarba}=useContext(KosarContext)
+
     function kosarba(){
-        console.log(props.index);
-        props.kosarbafv(props.index);
+        kosarba(props.index);
     }
 
     return (

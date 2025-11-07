@@ -7,7 +7,7 @@ export default function Konyvek(props) {
         <h2>Könyveink</h2>
         {
             props.konyvLista.map( (adat, index) => {
-                    return <Konyv adat={adat} key={index} index={index} kosarbafv={props.kosarbafv} />
+                    return <Konyv adat={adat} key={index} index={index} />
                 }
             )
         }
